@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>椅子</title>
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/index_original.css">
+	<link rel="stylesheet" type="text/css" href="css/glide.core.min.css">
+</head>
+<body>
+
+<section class="main-cont">
+	<article>
+		<div class="product-banner">
+			<div id="Carousel" class="glide">
+				<div class="glide__wrapper">
+					<ul class="glide__track">
+						<li class="glide__slide" data-glide-autoplay="1000">
+							<div class="box" style="background-color: #77A7FB;">1</div>
+						</li>
+						<li class="glide__slide" data-glide-autoplay="3000">
+							<div class="box" style="background-color: #FBCB43;">2</div>
+						</li>
+						<li class="glide__slide" data-glide-autoplay="5000">
+							<div class="box" style="background-color: #34B67A;">3</div>
+						</li>
+						<li class="glide__slide" data-glide-autoplay="7000">
+							<div class="box" style="background-color: #34B67A;">4</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="glide__bullets"></div>
+
+			</div>
+		</div>
+	</article>
+	<article class="pro-info-box">
+		<div class="pro-info">
+			<div class="left pro-name">牛奶味饼干一包矿泉水</div>
+			<div class="right pro-handle"><span class="icon-share"></span></div>
+		</div>
+		<div class="pro-price">
+			<p><span>￥</span><span class="price-strong">23000</span><span>.00</span></p>
+		</div>
+		<div class="pro-detail">
+			<div class="left pro-stan">规格： <span>1桌5椅套装</span></div>
+			<div class="right pro-local">杭州</div>
+		</div>
+	</article>
+	<article class="image-text">
+		<p class="text-title">图文详情</p>
+		<div class="text-content"></div>
+	</article>
+</section>
+<script type="text/javascript" src="script/lib/jquery.min.js"></script>
+<script type="text/javascript" src="script/index.js"></script>
+<script type="text/javascript" src="script/glide.min.js"></script>
+<script type="text/javascript">
+	var carousel = $('#Carousel').glide({
+		type: 'carousel',
+		startAt: 1
+	});
+</script>
+</body>
+</html>
